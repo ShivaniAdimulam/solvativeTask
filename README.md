@@ -17,9 +17,11 @@ Rewards - Points that are earned and can not be given to others
 
 # Completed
 
-The task main goal was to give points to other user as a thanking note which has been accomplished using node js and mongodb by creating the apis,Below are the list of apis please refer:
+The task main goal was to give points to other user as a thanking note which has been accomplished using node js and mongodb by creating the apis,Below are the list of apis please refer.
 
-#REST APIs
+All the test case have handled for validation in case of points giving api and in other required apis too
+
+** REST APIs **
 
 User - Create, Edit, Get user List
 
@@ -27,8 +29,6 @@ P5 (Points given) - Create, Get Points list, Delete Transaction
 
 Reward (Points received) - Get Points list
 
-#DB Used
--Mongodb
 
 
 
