@@ -1,4 +1,6 @@
 **MiniPeerfives**
+
+# Steps to execute project
 step 1: Clone the repo
 
 step 2: Install all packages using npm i command
