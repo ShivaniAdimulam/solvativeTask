@@ -29,6 +29,7 @@ Below are the list of apis please refer:
 ** REST APIs **
 
 **User - Create, Edit, Get user List**
+
 endpoints-  
 
 1) Create- /adduser
