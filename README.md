@@ -28,14 +28,14 @@ Below are the list of apis please refer:
 
 ** REST APIs **
 
-User - Create, Edit, Get user List
+**User - Create, Edit, Get user List**
 endpoints-  
 
 1) Create- /adduser
 2) Edit- /edituser/:id
 3) Get user list- /getusers
 
-P5 (Points given) - Create, Get Points list, Delete Transaction
+**P5 (Points given) - Create, Get Points list, Delete Transaction**
 
 endpoints-  
 
@@ -43,7 +43,7 @@ endpoints-
 2) Get user list- /getuserspoints
 3) Delete Transaction- /deletetransaction/:id
 
-Reward (Points received) - Get Points list
+**Reward (Points received) - Get Points list**
 
 endpoints-  
 
