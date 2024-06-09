@@ -41,14 +41,14 @@ endpoints-
 endpoints-  
 
 1) Create- /givepoints
-2) Get user list- /getuserspoints
+2) Get p5 given points history by user id- /p5/:id
 3) Delete Transaction- /deletetransaction/:id
 
 **Reward (Points received) - Get Points list**
 
 endpoints-  
 
-1) Get user list- /getuserspoints
+1) Get rewards history by user id - /rewards/:id
 
 
 
