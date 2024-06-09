@@ -9,6 +9,9 @@ router.get("/getusers",userController.getUserList);
 router.post("/givepoints",pointsController.givePoints);
 router.get("/getuserspoints",pointsController.getPoints);
 router.put("/deletetransaction/:id",pointsController.deleteTransaction);
+router.get("/rewards/:id",pointsController.getRewardsHistory);
+router.get("/p5/:id",pointsController.getP5GivenHistory);
+
 
 module.exports=router
 

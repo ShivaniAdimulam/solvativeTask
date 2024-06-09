@@ -60,3 +60,21 @@ module.exports.deleteTransaction=async (req, res) => {
         res.status(500).send({status:false, error: err.message });
     }
 }
+
+module.exports.getRewardsHistory=async (req, res) => {
+    try {
+        const rewards = await pointModel.find({givenTo:req.params.id ,isDeleted:false}).populate('givenBy').populate('givenTo');
+        res.status(200).send({status:true,message:"Fetched data successfully",data:rewards})
+    } catch (err) {
+        res.status(500).send({status:false, error: err.message });
+    }
+}
+
+module.exports.getP5GivenHistory=async (req, res) => {
+    try {
+        const data = await pointModel.find({givenBy:req.params.id ,isDeleted:false}).populate('givenBy').populate('givenTo');
+        res.status(200).send({status:true,message:"Fetched data successfully",data:data})
+    } catch (err) {
+        res.status(500).send({status:false, error: err.message });
+    }
+}
